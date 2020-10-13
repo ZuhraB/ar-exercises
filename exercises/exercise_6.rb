@@ -17,10 +17,10 @@ require_relative './exercise_5'
 puts "Exercise 6"
 puts "----------"
 @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
-@store1.employees.create(first_name: "Bob", last_name: "Smith", hourly_rate: 14.99)
-@store1.employees.create(first_name: "Jhone", last_name: "Smith", hourly_rate: 14.99)
-@store1.employees.create(first_name: "Sam", last_name: "Smith", hourly_rate: 14.99)
-@store2.employees.create(first_name: "Tom", last_name: "Smith", hourly_rate: 14.99)
-@store2.employees.create(first_name: "Tony", last_name: "Smith", hourly_rate: 14.99)
-@store2.employees.create(first_name: "sarah", last_name: "Smith", hourly_rate: 14.99)
-@store2.employees.create(first_name: "samual", last_name: "Smith", hourly_rate: 14.99)
+@store1.employees.create(first_name: "Bob", last_name: "Smith", hourly_rate: 50)
+@store1.employees.create(first_name: "Jhone", last_name: "Smith", hourly_rate: 50)
+@store1.employees.create(first_name: "Sam", last_name: "Smith", hourly_rate: 50)
+@store1.employees.create(first_name: "Tom", last_name: "Smith", hourly_rate: 50)
+@store1.employees.create(first_name: "Tony", last_name: "Smith", hourly_rate: 50)
+@store1.employees.create(first_name: "sarah", last_name: "Smith", hourly_rate: 50)
+@store1.employees.create(first_name: "samual", last_name: "Smith", hourly_rate: 50)
